@@ -1,0 +1,8 @@
+How Encapsulation Addresses Implementation Level Problems ?
+It Restricts direct access to an Object's Internal State,Enhancing Data Security and Integrity.
+It prevents External Classes  from modifiying the Data Directly.
+
+How ABSTRACTION Addresses Design Level Issues?
+..It enhances Readablity and Maintainablity of Code
+..It allows Code Reusability
+..It Enhances Flexibility

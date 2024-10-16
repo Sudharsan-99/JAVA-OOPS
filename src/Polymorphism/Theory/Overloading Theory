@@ -1,0 +1,35 @@
+                                        POLYMORPHISM
+   Definition-The Act of Representing Same things in Multiple Ways
+   Poly means many
+   Morphism means Ways to Represent
+   A Language that doesn't Allow Polymorphism is Called as "Object Assisted Language" not a OOPS language.
+
+   Note---
+       1.The Definition Of the Function Should be Same
+
+   Types of Polymorphism---
+        1.Static or Compile Time polymorphism--
+                    * In Java two or more methods with same Name in a Class is Allowed , But They Should have
+                      Different "Return Type" or "Different Ordering Of Parameters" or "Different Type of Argument"
+                      or "Type".
+                    * While overloaded methods may have different return types, the return type alone is insufficient to distinguish two
+                      versions of a method. When Java encounters a call to an overloaded method, it simply executes the version of the method
+                      whose parameters match the arguments used in the call.
+                    * Example--Multiple Constructors
+
+             Error Happens When--
+                    * public static int add(int a,int b){
+                              return a+b;
+                          }
+                      public static void add(int a,int b){
+                              int n= a+b;
+                              System.out.println(n);
+                          }
+                    *here error Occurs Because of this--
+                                            In Java, method overloading allows multiple methods to have the
+                                            same name but different parameters (different type, number, or both).
+                                            However, you cannot have two methods with the same name and the exact same parameter types,
+                                            even if their return types are different.
+
+        2.Dynamic or Run Time Polymorphism--
+                     *

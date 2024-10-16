@@ -1,0 +1,20 @@
+In java there is no multiple Inheritance
+Multiple Inheritance can be implemented using Interface
+Check out Interfaces
+
+
+Why Java doesn't Support Multiple Inheritance ?
+Example----
+          public class A{
+              int n=5;
+          }
+          public class B{
+               int n=10;
+          }
+          public class C extends A,B{   // Shows error like Class can't Extend Mutiple Classes
+               C c = new C();
+               System.out.println(c.n);
+          }
+
+How can Multiple Inheritance be Implemented ?
+      The Answer is It can be Implemented Using Interfaces

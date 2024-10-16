@@ -1,0 +1,18 @@
+Encapsulation---
+1.Encapsulation is wrapping up the implementaton of data Members and methods in a single class
+2.It basically Hides the data in a single unit inorder to prevent it from seeing from outside
+3.It is acheived with the help of Access Modifiers(mainly "private")
+4.For better Understanding Let consider a class Human .
+5.Now Human Class have Instance variable like age and Name.
+6.I make the Age and Name a "Private" . so now when we try to create an object for human class and assign the
+values for the objects age and Name "we get an error" this is called as ENCAPSULATION
+7.Inorder to achieve it we have to craete public method for setting and getting the age and Name
+8.example--getAge(),getName(),Setage(),SetName()...
+
+technically in encapasulation the varaible or data of a class is hidden from any other class and it canbe only
+assessed by through any member function of its own class.
+
+Advantages---
+1.Data Hiding
+2.Flexibility--User can make the variable as read only or write only.
+3.Reuseability
